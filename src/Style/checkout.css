@@ -1,0 +1,33 @@
+.checkoutContainer {
+
+    box-shadow: 5px 6px 18px rgb(158, 129, 129);
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+.checkoutContainer h1 {
+
+    text-align: center;
+
+}
+
+.amount {
+    text-align: center;
+
+}
+
+.amount_text {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+@media screen and (max-width:900px) {
+    .checkoutContainer {
+        margin-left: 10px;
+
+    }
+
+
+}

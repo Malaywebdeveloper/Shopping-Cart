@@ -1,0 +1,24 @@
+.CartContainer {
+    display: flex;
+
+}
+
+.leftPart {
+    flex: .7;
+    margin: 10px;
+}
+
+.rightPart {
+    flex: .3;
+
+}
+
+@media screen and (max-width:900px) {
+    .CartContainer {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+}

@@ -1,0 +1,32 @@
+.home {
+  background-image: url("https://segwitz.com/wp-content/uploads/2021/09/why-ecommerce-need-mobile-apps.jpg");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.home2 {
+  font-size: 30px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  /* height: 100vh; */
+  /* border: 2px solid red; */
+  box-shadow: 3px 2px 20px white;
+  border-radius: 20px;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  padding: 10px;
+  color: white;
+}
+.home button {
+  /* height: 50px; */
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+}
